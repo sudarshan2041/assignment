@@ -1,0 +1,25 @@
+@import "../../sass/_variables.scss";
+@import "../../sass/_typography.scss";
+
+.login-wrapper {
+  background-color: $colorBG;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.login-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: $colorLight;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40vh;
+}
+
+.login-error {
+  font-size: $fontSize12;
+  font-weight: $fontWeight600;
+  color: $colorError;
+  text-align: center;
+}

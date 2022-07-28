@@ -1,0 +1,120 @@
+@import "../../sass/_variables.scss";
+@import "../../sass/_typography.scss";
+
+.dash-container {
+  display: flex;
+  width: 100%;
+}
+
+// SIDE TAB
+aside {
+  width: 300px;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  font-size: $fontSize20;
+  font-weight: $fontWeight600;
+  border-right: 1px solid $colorDark;
+}
+
+.dash-content {
+  width: 100%;
+
+  // HEADER
+  header {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: $fontSize20;
+    font-weight: $fontWeight600;
+    border-bottom: 1px solid $colorDark;
+  }
+
+  // NAVBAR
+  nav {
+    width: 100%;
+    border-bottom: 1px solid $colorDark;
+    padding: 20px;
+    display: flex;
+
+    div {
+      padding: 3px 15px;
+      font-weight: 600;
+      width: fit-content;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.active {
+  color: $colorSuccess;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.button-Wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.disable-btn {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.sub-header {
+  margin-left: 20px;
+  font-size: $fontSize18;
+  font-weight: $fontWeight600;
+}
+
+// ABOUT US
+
+.sub-tab-section {
+  padding: 20px;
+  font-size: $fontSize16;
+  font-weight: $fontWeight600;
+}
+
+//  CONTACT US
+
+.contactUs-form {
+  padding: 20px;
+}
+
+// REUSED STYLES
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.child-container {
+  border: 1px solid $colorDark;
+  border-radius: 10px;
+  width: 400px;
+}
+
+section {
+  padding: 20px;
+  height: calc(100vh - 130px);
+}
+.error {
+  font-size: $fontSize12;
+  font-weight: $fontWeight600;
+  color: $colorError;
+  text-align: center;
+}
+
+.contact-data {
+  margin-left: 10px;
+}
+
+.logout-icon {
+  margin-left: 100px;
+  cursor: pointer;
+}
